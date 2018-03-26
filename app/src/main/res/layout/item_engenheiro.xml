@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10sp"
+    android:orientation="horizontal"
+    android:padding="16sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/cnpj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CNPJ"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/projeto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Projeto"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tel_fixo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tel_fixo"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/celular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Celular"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Endereco"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/identificacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identificacao"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</LinearLayout>
