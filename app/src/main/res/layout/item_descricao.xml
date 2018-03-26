@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10sp"
+    android:orientation="horizontal"
+    android:padding="16sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/codigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codigo"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/complemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complemento"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/quartos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quartos"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/andares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Andares"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/garagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Garagem"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/churrasqueira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Churrasqueira"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/valor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/banheiros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Banheiros"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/outros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Outros"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</LinearLayout>
