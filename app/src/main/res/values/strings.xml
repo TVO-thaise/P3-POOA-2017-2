@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">P3-POOA-2017-2</string>
+    <string name="title_activity_projeto">Lista de Projetos</string>
+    <string name="title_activity_funcionario">Lista de Funcionarios</string>
+    <string name="title_activity_descricao">Lista de Descrição</string>
+    <string name="title_activity_engenheiro">Lista de Engenheiro</string>
+    <string name="title_activity_almoxarifado">Lista de Almoxarifado</string>
+
 </resources>

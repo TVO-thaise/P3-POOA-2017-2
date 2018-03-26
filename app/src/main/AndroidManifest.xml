@@ -16,6 +16,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.ProjetoActivity"
+            android:label="@string/title_activity_projeto"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".activity.ProjetoDetalheActivity"></activity>
+        <activity
+            android:name=".activity.EngenheiroActivity"
+            android:label="@string/title_activity_engenheiro"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".activity.EngenheiroDetalheActivity"></activity>
+        <activity
+            android:name=".activity.DescricaoActivity"
+            android:label="@string/title_activity_descricao"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".activity.DescricaoDetalheActivity"></activity>
+        <activity
+            android:name=".activity.FuncionarioActivity"
+            android:label="@string/title_activity_funcionario"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".activity.FuncionarioDetalheActivity"></activity>
+        <activity
+            android:name=".activity.AlmoxarifadoActivity"
+            android:label="@string/title_activity_almoxarifado"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".activity.AlmoxarifadoDetalheActivity"></activity>
     </application>
 
 </manifest>
