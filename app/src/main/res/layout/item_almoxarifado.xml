@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10sp"
+    android:orientation="horizontal"
+    android:padding="16sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ferramenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ferramenta"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/horaRetirada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hora Retirada"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/horaEntrega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hora Entrega"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/funcionario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Funcionario"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

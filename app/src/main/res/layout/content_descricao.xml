@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.samsung.p3_pooa_2017_2.activity.ProjetoActivity"
-    tools:showIn="@layout/activity_projeto">
+    tools:context="com.example.samsung.p3_pooa_2017_2.activity.DescricaoActivity"
+    tools:showIn="@layout/activity_descricao">
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="333dp"

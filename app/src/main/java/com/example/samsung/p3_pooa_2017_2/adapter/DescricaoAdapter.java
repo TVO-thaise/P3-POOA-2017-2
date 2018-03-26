@@ -22,7 +22,7 @@ public class DescricaoAdapter extends RecyclerView.Adapter {
     private Context context;
     private static ClickRecyclerViewListener clickRecyclerViewListener;
 
-    public DescricaoAdapter(List<Descricao> decricaos, Context context, ClickRecyclerViewListener clickRecyclerViewListener) {
+    public DescricaoAdapter(List<Descricao> descricaos, Context context, ClickRecyclerViewListener clickRecyclerViewListener) {
         this.descricaos = descricaos;
         this.context = context;
         this.clickRecyclerViewListener = clickRecyclerViewListener;

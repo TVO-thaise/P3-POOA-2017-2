@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.samsung.p3_pooa_2017_2.activity.ProjetoDetalheActivity">
+    tools:context="com.example.samsung.p3_pooa_2017_2.activity.DescricaoDetalheActivity">
 
     <EditText
         android:id="@+id/ed_codigo"
